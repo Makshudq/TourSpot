@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["puod6V",(e,a)=>{"use strict";var t=()=>({isNativeAppPromoEnabled:!0}),u=()=>({isSummerCampaignEnabled:!1});return[()=>{e({useNativeAppFeatureGate:t,useSummerCampaignFeatureGate:u})},[]]},[]]);

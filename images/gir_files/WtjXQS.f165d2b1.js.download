@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["WtjXQS",(t,e)=>{"use strict";var r,s,u,a,i=()=>{var t=s();return u(a,{},t)};return[()=>{a=r.onComponentUsage((()=>e("WtjXQS/UKJvNl")),"default"),t("default",i)},[t=>r=t,t=>s=t.usePageviewUid,t=>u=t.jsx]]},["pLbCP4","F8raOV","F5FCuN"]]);

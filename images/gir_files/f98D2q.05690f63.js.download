@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["f98D2q",(e,u)=>{"use strict";return[()=>{},[u=>e({useMDTProductItineraryModel:u.c,useOverviewModel:u.u,useProductItineraryModel:u.b,useProductReviewsCount:u.e,useSupplierTrustData:u.d,useWhatToExpectModel:u.a})]]},["f98D2q/mk62Lp"]]);

@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["ukkKxE",(e,t)=>{"use strict";var r,u,s,i,a=()=>u(s).userId,c=()=>u(s).authenticate;return[()=>{i=(s=r({userId:null,authenticate(){}})).Provider,e({UserProvider:i,useAuthenticate:c,useUserId:a})},[e=>(r=e.createContext,u=e.useContext)]]},["cDcdfi"]]);

@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["pFBj1J",(c,h)=>{"use strict";var s,t,v=c=>t("svg",{...s(c),children:t("path",{d:"M21.5 18h-19c-.3 0-.5.2-.5.5v1c0 .3.2.5.5.5h19c.3 0 .5-.2.5-.5v-1c0-.3-.2-.5-.5-.5zM4.5 17h15c.3 0 .5-.2.5-.5v-12c0-.3-.2-.5-.5-.5h-15c-.3 0-.5.2-.5.5v12c0 .3.2.5.5.5zM6 6h12v9H6V6z"})});return[()=>{c("default",v)},[c=>s=c.u,c=>t=c.jsx]]},["pyY-iJ/9Z4jqe","F5FCuN"]]);

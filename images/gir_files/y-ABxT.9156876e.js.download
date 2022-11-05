@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["y-ABxT",(s,u)=>{"use strict";var e=()=>({isOmnibusEnabled:!0});return[()=>{s("useOmnibusFeatures",e)},[]]},[]]);

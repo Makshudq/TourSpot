@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["ah05FY",(h,a)=>{"use strict";var s,t,u=h=>t("svg",{...s(h),children:t("path",{d:"M13.109 5.399V4.22a1.11 1.11 0 10-2.219 0V5.4A10 10 0 002 15.33v1.109h20V15.33a10.002 10.002 0 00-8.891-9.931zM4.31 14.221a7.78 7.78 0 0115.39 0H4.31zM2 18.67h20v2.221H2z"})});return[()=>{h("default",u)},[h=>s=h.u,h=>t=h.jsx]]},["pyY-iJ/9Z4jqe","F5FCuN"]]);

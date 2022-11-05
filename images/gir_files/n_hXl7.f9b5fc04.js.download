@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["n_hXl7",(e,a)=>{"use strict";var l,t,n,s,i=({children:e,...a})=>s("span",{className:t("zzoFR d R4 Gf Cj",n(a)),children:s(l,{variant:"tag-01",elementType:"span",children:e})});return[()=>{e("default",i)},[e=>l=e.default,e=>(t=e.default,n=e.margin),e=>s=e.jsx]]},["VP50Wc","iekllc","F5FCuN"]]);

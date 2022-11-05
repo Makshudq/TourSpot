@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["IgbUT0",(r,e)=>{"use strict";var s,t=(r,e,s,t=[])=>{};return[()=>{new s("noderender_ssr_timing"),r("logSsrMetric",t)},[r=>s=r.ServerSideCounter]]},["2kkWwV"]]);

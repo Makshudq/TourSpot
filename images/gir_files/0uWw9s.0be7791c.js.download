@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["0uWw9s",(e,s)=>{"use strict";var r,n,t,a,u=()=>{var e=n(),{browser:s}=r();return("IE"!==s.family||!a.has(s.majorVersion))&&t.has(e)};return[()=>{t=new Set(["xx","en","es","fr","de","nl","sv","pt","da","no","it","ja","zh"]),a=new Set([6,7,8,9,10]),e("useMemberProfileBookings",u)},[e=>r=e.useUserAgent,e=>n=e.useLanguage]]},["slAn47","0DsHEV"]]);

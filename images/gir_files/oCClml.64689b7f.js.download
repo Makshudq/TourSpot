@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["oCClml",(a,e)=>{"use strict";var l,r,i,s=()=>{var{localize:a}=l(),e=a.string("common_Loading");return i("div",{className:"c Ml Nl MK NN",children:i(r,{variant:"large","aria-label":e})})};return[()=>{a("default",s)},[a=>l=a.useLocalize,a=>r=a.Spinner,a=>i=a.jsx]]},["0DsHEV","Ly5eaD","F5FCuN"]]);

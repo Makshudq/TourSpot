@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["3Uc_6M",(e,t)=>{"use strict";var l,s,u,n,r=({model:e})=>{var{singleFlexCardContent:t}=e;return t&&u(s,{model:t,mobileMediaFullBleed:!0})};return[()=>{n=l(r,!1),e("default",n)},[e=>l=e.FusionComponent,e=>s=e.default,e=>u=e.jsx]]},["PEYes_","YMFNZa","F5FCuN"]]);

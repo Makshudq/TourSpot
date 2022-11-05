@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["Igs38q",(s,e)=>{"use strict";var i,r,u=()=>r("div",{className:"rUioF _Z Xc f u j",children:r(i,{size:"large"})});return[()=>{s("default",u)},[s=>i=s.LoadingBubbles,s=>r=s.jsx]]},["V08PS7","F5FCuN"]]);

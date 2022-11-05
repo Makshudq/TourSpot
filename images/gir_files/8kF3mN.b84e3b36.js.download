@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["8kF3mN",(e,t)=>{"use strict";var n,r=(e,t,r)=>{var u=n({experimentKeys:[e],skipImpression:!r},t);return{fetching:null===u,bucket:null==u?void 0:u[e]}},u=(e,t)=>{var{fetching:n,bucket:u}=r(e,t,!1);return{fetching:n,isEnabled:!!u}};return[()=>{e({useFetchExperimentBucket:r,useIsCurationExperimentAnyBucket:u})},[e=>n=e.default]]},["S-RL4Q"]]);

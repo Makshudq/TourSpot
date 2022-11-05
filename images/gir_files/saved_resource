@@ -1,0 +1,48 @@
+
+var ftGUID_6122929="528905C7AE0524";
+var ftConfID_6122929="0";
+var ftParams_6122929="ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fe895f3d563dd6fd9d7c9d0cd48d28bf6.safeframe.googlesyndication.com%2Fsafeframe%2F1-0-38%2Fhtml%2Fcontainer.html&gdpr=0&cachebuster=607377.1905713446&ft_dv=%5B%25ft_dv%25%5D";
+var ftKeyword_6122929="";
+var ftCustom_6122929="";
+var ftSection_6122929="";
+var ftSegment_6122929="aixg";
+var ftSegmentList_6122929=[{s:'aixg'}];
+var ftRuleMatch_6122929="0";
+var ftTimestamp_6122929="1665248964";
+var ftGeoC2_6122929="in";
+var ftGeoState_6122929="gj";
+var ftGeoCity_6122929="ahmedabad";
+var ftISP_6122929="bharti airtel limited";
+var ftSpeed_6122929="mobile";
+var ftDMA_6122929="356008";
+var ftLong_6122929="72.6";
+var ftLat_6122929="23.03";
+var ftPostal_6122929="380001";
+var ftTimeZone_6122929="530";
+var ftMobileCarrier_6122929="airtel";
+var ftImp6122929 = {};
+ftImp6122929.privacy = "x";
+ftImp6122929.guidAge = "105";
+ftImp6122929.impID = "483CFB15-E4EF-35B7-100C-B248CA212F5F";
+ftImp6122929.duid = "FT:528905C7AE0524";
+
+ftImp6122929.ft_tpplid = "";
+ftImp6122929.ft_c = {};
+ftImp6122929.gdpr = "0";
+ftImp6122929.gdpr_consent = "";
+ftImp6122929.gdpr_pd = "";
+ftImp6122929.oob_consent = "";
+ftImp6122929.gdprStoredConsent = "";
+ftImp6122929.us_privacy = "";
+
+ftImp6122929.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_6122929') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/612/6122929/3956238/js/j-6122929-3956238.js";
+    js.id = "ftscript_m6122929";
+    tag.parentNode.insertBefore(js, tag);
+}());

@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["mGAIj_",(e,s)=>{"use strict";var t;function r(e){var s="MOBILE"===t().userAgentCategory;switch(e){case"newTab":return"_blank";case"newTabDesktop":return s?"_self":"_blank";case"sameTab":default:return"_self"}}return e("useLinkTarget",r),[()=>{e("useLinkTarget",r)},[e=>t=e.useUserAgent]]},["slAn47"]]);

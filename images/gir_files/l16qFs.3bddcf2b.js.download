@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["l16qFs",(e,t)=>{"use strict";var s,i,r=()=>{var e=i(),{page:t,params:r}=e;return s((()=>"Hotel_Review"===t&&1===r.showHighlightOnHR?"HotelHighlight":t),[t,r])};return[()=>{e("default",r)},[e=>s=e.useMemo,e=>i=e.useRoute]]},["cDcdfi","F8raOV"]]);

@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["vB1bu4",(e,a)=>{"use strict";var t,i,l,n,r=({model:e})=>{var{tag:a}=e;return a&&a.localizedName&&l(i,{marginRight:"spacing-02",children:a.localizedName})};return[()=>{n=t(r),e("default",n)},[e=>t=e.FusionComponent,e=>i=e.default,e=>l=e.jsx]]},["PEYes_","n_hXl7","F5FCuN"]]);

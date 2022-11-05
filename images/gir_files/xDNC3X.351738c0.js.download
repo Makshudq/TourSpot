@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["xDNC3X",(e,t)=>{"use strict";var r,i,s,a,o=()=>i(s);return[()=>{a=(s=r("")).Provider,e({DomainNameProvider:a,useDomainName:o})},[e=>(r=e.createContext,i=e.useContext)]]},["cDcdfi"]]);
