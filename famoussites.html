@@ -1,83 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=p, initial-scale=1.0">
-    <title>Document</title>
 
-      <!-- CSS only -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=p, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
 
 
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <p class="rounded-2 p-2 justify-content-evenly mb-0"
-              style=" font-family:'Times New Roman', Times, serif ; background-color:blue; font-style: italic; color: white"> TourSpot</p> </a>
-    
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item" style="color: red">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item" style="color: red">
-                <a class="nav-link active" aria-current="page" href="./famoussites.html">Famous Sites</a>
-              </li>
-              <li class="nav-item" style="color: red">
-                <a class="nav-link active" aria-current="page" href="./pakages.html">Pakages</a>
-              </li>
-              <li class="nav-item" style="color: red">
-                <a class="nav-link active" aria-current="page" href="./form.html">Booking</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    <div class="row justify-content-evenly p-5">
-        <h2><p class="text-center" >FAMOUS SITES TO VISIT</p></h2>
-        <div class="col-md-3">
-            <img src="./images/tajmahal.jpg" alt="" style="width: 300px; height: 300px">
-            <h5><p class="text-center m-1" >Taj Mahal, Agra</p></h5>
-            <p class="p-2 " >Taj Mahal is the epitome of grandeur and splendour, you cannot fathom the beauty of this white marbled monument unless you stand in front of it. As you approach Taj Mahal, it gradually becomes known to you that this is no ordinary monument, but a vision come to life! Moved by its beauty and the deep affection of Shah Jahan for Mumtaz, the Nobel Laureate Rabindranath Tagore called it "a teardrop on the face of eternity".   </p>
-        </div>
-        <div class="col-md-3">
-            <img src="./images/guwahati.jpg" alt="" style="width: 300px; height: 300px">
-            <h5><p class="text-center m-1" >Guwahati, Assam</p></h5>
-            <p class="p-2">Poised on the banks of the Brahamputra River, this rapidly growing city provides a link to seven other northeastern states. Its hills hold a 10th-century temple dedicated to the goddess Kamakhya and an ancient seat of astronomy known as Navagraha, the temple of the nine planets; the small Umananda temple, dedicated to Lord Shiva, is on an island in the river. The area around the city contains wildlife sanctuaries, archeological ruins and a silk-weaving center.   </p>
-        </div>
-        <div class="col-md-3">
-            <img src="./images/manali.jpg" alt="" style="width: 300px; height: 300px">
-            <h5><p class="text-center m-1" >Manali, Himachal Pradesh</p></h5>
-            <p class="p-2">  No wonder the towering peaks and verdant terrain of Manali attracts adventure travellers, with heli-skiing, hiking, mountaineering and river rafting the favored active pursuits. Come down from your endorphin high by breathing deeply at the four-story, wooden Hidimba Devi Temple, which sits in the middle of a nearby deciduous forest, or take a medicinal soak in the hot springs burbling from the ground a 30-minute walk from town.   </p>
-        </div>
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark  sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <p class="rounded-2 p-2 justify-content-evenly mb-0"
+          style=" font-family:'Times New Roman', Times, serif ; background-color:blue; font-style: italic; color: white">
+          TourSpot</p>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-4">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link active" aria-current="page" href="./famoussites.html">Famous Sites</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link active" aria-current="page" href="./pakages.html">Pakages</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link active" aria-current="page" href="./form.html">Booking</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-    <div class="row justify-content-evenly p-5">
-         
-        <div class="col-md-3">
-            <img src="./images/shimla.jpg" alt="" style="width: 300px; height: 300px">
-            <h5><p class="text-center m-1" >Shimla, Himachal Pradesh</p></h5>
-            <p class="p-2" >Snow-capped Himalayan peaks and green pastures surround Shimla, the capital of Himachal Pradesh. Enjoy a heritage walk through Shimla’s Victorian-era architecture, labyrinthine bazaars and lengthy pedestrian shopping mall. Don’t cause too much trouble taking in the town from Scandal Point, a large, open square; keep in mind that Shimla was a retreat destination for Mahatma Gandhi, who frequented a Georgian mansion in Shimla’s suburbs from the mid-1930s to '4   </p>
-        </div>
-        <div class="col-md-3">
-            <img src="./images/lakshdweep.jpg" alt="" style="width: 300px; height: 300px">
-            <h5><p class="text-center m-1" >Lakshdweep</p></h5>
-            <p class="p-2">The name of India's tiniest Union Territory means "100,000 islands" in Maylayam, the local language; but in truth, there are 36 isles in this archipelago, 10 that are inhabited. In these palm-laden coral islands, a northern extension of the Maldives, diving reigns supreme. Both Kavaratti and Kadmat have full-service scuba facilities, and the latter also has a center for kayaking, water skiing, yachting and wind surfing. Teardrop-shaped Bangaram woos couples with its uninhabited white sands.  </p>
-        </div>
-        <div class="col-md-3">
-            <img src="./images/qutubminar.jpg" alt="" style="width: 300px; height: 300px">
-            <h5><p class="text-center m-1" > Qutub Minar, Delhi</p></h5>
-            <p class="p-2">  Visit in Delhi – Jama Masjid, QutubMinar&Humayun’s Tomb Drive past in Delhi - Red Fort, Rajghat, President House & India Gate Rickshaw ride in ChandniChowk Visit in Agra – TajMahal, Agra Fort &Fateh-purSikri Visit in Jaipur – Amber Fort, City Palace, JantarMantar Observatory &HawaMahal Elephant ride at Amber Fort Eravikulam National Park in Munnar Periyar Boating in Thekkady Kathakali shows and Martial Arts Shows Overnight stay in Houseboat Assistance at airport and sightseeing tours by private air-conditioned vehicle Start From Delhi and End in Cochin  </p>
-        </div>
+  </nav>
+  <div class="row justify-content-evenly p-5">
+    <h2>
+      <p class="text-center">FAMOUS SITES TO VISIT</p>
+    </h2>
+    <div class="col-md-3">
+      <img src="./images/tajmahal.jpg" alt="" style="width: 300px; height: 300px">
+      <h5>
+        <p class="text-center m-1">Taj Mahal, Agra</p>
+      </h5>
+      <p class="p-2 ">Taj Mahal is the epitome of grandeur and splendour, you cannot fathom the beauty of this white
+        marbled monument unless you stand in front of it. As you approach Taj Mahal, it gradually becomes known to you
+        that this is no ordinary monument, but a vision come to life! Moved by its beauty and the deep affection of Shah
+        Jahan for Mumtaz, the Nobel Laureate Rabindranath Tagore called it "a teardrop on the face of eternity". </p>
     </div>
-    
+    <div class="col-md-3">
+      <img src="./images/guwahati.jpg" alt="" style="width: 300px; height: 300px">
+      <h5>
+        <p class="text-center m-1">Guwahati, Assam</p>
+      </h5>
+      <p class="p-2">Poised on the banks of the Brahamputra River, this rapidly growing city provides a link to seven
+        other northeastern states. Its hills hold a 10th-century temple dedicated to the goddess Kamakhya and an ancient
+        seat of astronomy known as Navagraha, the temple of the nine planets; the small Umananda temple, dedicated to
+        Lord Shiva, is on an island in the river. The area around the city contains wildlife sanctuaries, archeological
+        ruins and a silk-weaving center. </p>
+    </div>
+    <div class="col-md-3">
+      <img src="./images/manali.jpg" alt="" style="width: 300px; height: 300px">
+      <h5>
+        <p class="text-center m-1">Manali, Himachal Pradesh</p>
+      </h5>
+      <p class="p-2"> No wonder the towering peaks and verdant terrain of Manali attracts adventure travellers, with
+        heli-skiing, hiking, mountaineering and river rafting the favored active pursuits. Come down from your endorphin
+        high by breathing deeply at the four-story, wooden Hidimba Devi Temple, which sits in the middle of a nearby
+        deciduous forest, or take a medicinal soak in the hot springs burbling from the ground a 30-minute walk from
+        town. </p>
+    </div>
+  </div>
+  <div class="row justify-content-evenly p-5">
+
+    <div class="col-md-3">
+      <img src="./images/shimla.jpg" alt="" style="width: 300px; height: 300px">
+      <h5>
+        <p class="text-center m-1">Shimla, Himachal Pradesh</p>
+      </h5>
+      <p class="p-2">Snow-capped Himalayan peaks and green pastures surround Shimla, the capital of Himachal Pradesh.
+        Enjoy a heritage walk through Shimla’s Victorian-era architecture, labyrinthine bazaars and lengthy pedestrian
+        shopping mall. Don’t cause too much trouble taking in the town from Scandal Point, a large, open square; keep in
+        mind that Shimla was a retreat destination for Mahatma Gandhi, who frequented a Georgian mansion in Shimla’s
+        suburbs from the mid-1930s to '4 </p>
+    </div>
+    <div class="col-md-3">
+      <img src="./images/lakshdweep.jpg" alt="" style="width: 300px; height: 300px">
+      <h5>
+        <p class="text-center m-1">Lakshdweep</p>
+      </h5>
+      <p class="p-2">The name of India's tiniest Union Territory means "100,000 islands" in Maylayam, the local
+        language; but in truth, there are 36 isles in this archipelago, 10 that are inhabited. In these palm-laden coral
+        islands, a northern extension of the Maldives, diving reigns supreme. Both Kavaratti and Kadmat have
+        full-service scuba facilities, and the latter also has a center for kayaking, water skiing, yachting and wind
+        surfing. Teardrop-shaped Bangaram woos couples with its uninhabited white sands. </p>
+    </div>
+    <div class="col-md-3">
+      <img src="./images/qutubminar.jpg" alt="" style="width: 300px; height: 300px">
+      <h5>
+        <p class="text-center m-1"> Qutub Minar, Delhi</p>
+      </h5>
+      <p class="p-2"> Visit in Delhi – Jama Masjid, QutubMinar&Humayun’s Tomb Drive past in Delhi - Red Fort, Rajghat,
+        President House & India Gate Rickshaw ride in ChandniChowk Visit in Agra – TajMahal, Agra Fort &Fateh-purSikri
+        Visit in Jaipur – Amber Fort, City Palace, JantarMantar Observatory &HawaMahal Elephant ride at Amber Fort
+        Eravikulam National Park in Munnar Periyar Boating in Thekkady Kathakali shows and Martial Arts Shows Overnight
+        stay in Houseboat Assistance at airport and sightseeing tours by private air-conditioned vehicle Start From
+        Delhi and End in Cochin </p>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <div class="row bg-black mt-2 justify-content-evenly">
+    <div class="col-md-3">
+      <h4 class="text-white m-3 p-3">About Us</h4>
+      <p class="text-white m-3 p-2.5">TourSpot is the world’s first Adventure Booking Platform, where you can
+        effortlessly book private, group, and tailor-made multi-day organized adventures from 160+ countries around
+        the world. TourSpot makes booking multi-day tours seamless and timely, partnering with 2,500+ operators to
+        offer more than 50,000+ adventures in 160+ countries.</p>
+    </div>
+
+    <div class="col-md-3">
+      <h4 class="text-white m-3 p-3">Contact Us</h4>
+      <p class="text-white m-3 ">
+        Tour Spot Limited,<br>
+        Meera Road-Kartavya Path,<br>
+        Nr. Alpha Avenue, 123-Tower, <br>
+        India Gate,Delhi 110001 <br>
+        <i class="bi bi-telephone-inbound-fill text-light p-1"></i> 0101010101
+      </p>
+      <i class="bi bi-facebook text-white m-3  "></i>
+      <i class="bi bi-instagram text-white m-2  "></i>
+      <i class="bi bi-youtube text-white m-2  "></i>
+      <i class="bi bi-whatsapp text-white m-2 "></i>
+    </div>
+
+    <div class="col-md-3">
+      <h4 class="text-white m-3 p-3"> Most Visited links</h4>
+      <a href="#" style="text-decoration:none">
+        <h6 class="text-white mx-3 px-3">Home</h6>
+      </a>
+      <a href="#" style="text-decoration:none">
+        <h6 class="text-white mx-3 px-3">Service</h6>
+      </a>
+      <a href="#" style="text-decoration:none">
+        <h6 class="text-white mx-3 px-3">Rail Service</h6>
+      </a>
+      <a href="#" style="text-decoration:none">
+        <h6 class="text-white mx-3 px-3">Airline Service</h6>
+      </a>
+      <a href="#" style="text-decoration:none">
+        <h6 class="text-white mx-3 px-3">Private Vehical Services</h6>
+      </a>
+
+    </div>
+
 </body>
 
 <!-- JavaScript Bundle with Popper -->

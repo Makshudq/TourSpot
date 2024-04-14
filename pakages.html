@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- CSS only -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
 </head>
+
 <body style="background-image:url(./images/travelpakages.jpg); height:100vh">
 
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark  sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <p class="rounded-2 p-2 justify-content-evenly mb-0"
-          style=" font-family:'Times New Roman', Times, serif ; background-color:blue; font-style: italic; color: white"> TourSpot</p> </a>
+          style=" font-family:'Times New Roman', Times, serif ; background-color:blue; font-style: italic; color: white">
+          TourSpot</p>
+      </a>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item" style="color: red">
+          <li class="nav-item mx-4">
             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
           </li>
-          <li class="nav-item" style="color: red">
+          <li class="nav-item mx-4">
             <a class="nav-link active" aria-current="page" href="./famoussites.html">Famous Sites</a>
           </li>
-          <li class="nav-item" style="color: red">
+          <li class="nav-item mx-4">
             <a class="nav-link active" aria-current="page" href="./pakages.html">Pakages</a>
           </li>
-          <li class="nav-item" style="color: red">
+          <li class="nav-item mx-4">
             <a class="nav-link active" aria-current="page" href="./form.html">Booking</a>
           </li>
         </ul>
@@ -39,31 +51,36 @@
       </div>
     </div>
   </nav>
-    
-   <h2> <p class="m-4 text-center" >BEST PAKAGES FOR YOU !!!</p></h2>
 
-    <div class="row  justify-content-evenly">
-        <div class="col-md-8">
+  <h2>
+    <p class="m-4 text-center">BEST PAKAGES FOR YOU !!!</p>
+  </h2>
 
-    <table class="table border ">
+  <div class="row  justify-content-evenly">
+    <div class="col-md-8">
+
+      <table class="table border ">
         <thead>
           <tr>
             <th scope="col"></th>
             <th scope="col" style="font-size:large">Site</th>
-            <th scope="col"style="font-size:large">Days To Stay</th>
-            <th scope="col"style="font-size:large">Price</th>
+            <th scope="col" style="font-size:large">Days To Stay</th>
+            <th scope="col" style="font-size:large">Price</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Taj Mahal</td></h1>
+            <td>Taj Mahal</td>
+            </h1>
             <td>3</td>
             <td>Rs 15000/-</td>
           </tr>
           <tr>
             <th scope="row">2
-            <h1><td>Guwahati</td></h1>
+              <h1>
+            <td>Guwahati</td>
+            </h1>
             <td>5</td>
             <td>Rs 22,000/-</td>
           </tr>
@@ -91,15 +108,69 @@
             <td>2</td>
             <td>Rs 18,000/-</td>
           </tr>
-          
+
           </tr>
         </tbody>
       </table>
     </div>
-</div>
+  </div>
+
+
+
+
+
 </body>
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- footer -->
+
+<div class="row bg-black mt-2 justify-content-evenly">
+  <div class="col-md-3">
+    <h4 class="text-white m-3 p-3">About Us</h4>
+    <p class="text-white m-3 p-2.5">TourSpot is the world’s first Adventure Booking Platform, where you can
+      effortlessly book private, group, and tailor-made multi-day organized adventures from 160+ countries around
+      the world. TourSpot makes booking multi-day tours seamless and timely, partnering with 2,500+ operators to
+      offer more than 50,000+ adventures in 160+ countries.</p>
+  </div>
+
+  <div class="col-md-3">
+    <h4 class="text-white m-3 p-3">Contact Us</h4>
+    <p class="text-white m-3 ">
+      Tour Spot Limited,<br>
+      Meera Road-Kartavya Path,<br>
+      Nr. Alpha Avenue, 123-Tower, <br>
+      India Gate,Delhi 110001 <br>
+      <i class="bi bi-telephone-inbound-fill text-light p-1"></i> 0101010101
+    </p>
+    <i class="bi bi-facebook text-white m-3  "></i>
+    <i class="bi bi-instagram text-white m-2  "></i>
+    <i class="bi bi-youtube text-white m-2  "></i>
+    <i class="bi bi-whatsapp text-white m-2 "></i>
+  </div>
+
+  <div class="col-md-3">
+    <h4 class="text-white m-3 p-3"> Most Visited links</h4>
+    <a href="#" style="text-decoration:none">
+      <h6 class="text-white mx-3 px-3">Home</h6>
+    </a>
+    <a href="#" style="text-decoration:none">
+      <h6 class="text-white mx-3 px-3">Service</h6>
+    </a>
+    <a href="#" style="text-decoration:none">
+      <h6 class="text-white mx-3 px-3">Rail Service</h6>
+    </a>
+    <a href="#" style="text-decoration:none">
+      <h6 class="text-white mx-3 px-3">Airline Service</h6>
+    </a>
+    <a href="#" style="text-decoration:none">
+      <h6 class="text-white mx-3 px-3">Private Vehical Services</h6>
+    </a>
+
+  </div>
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
 </html>
